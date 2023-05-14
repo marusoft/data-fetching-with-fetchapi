@@ -34,3 +34,40 @@ th, td{
   box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
   padding: 20px;
 }
+
+.comment-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  padding: 20px;
+}
+.comment-content{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  padding: 20px
+}
+.photo-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1rem;
+  padding: 20px;
+}
+.photo-content{
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+  /* padding: 20px */
+}
+.photo{
+  width: 100%;
+  height: 150px;
+}
+
+.photo-desc{
+  padding: 1.1rem;
+}
+button{
+  margin-top: 1rem;
+  border: none;
+  padding: .7rem;
+  color: #fff;
+  background-color: rgb(44, 157, 195);
+  border-radius: 6px;
+}
